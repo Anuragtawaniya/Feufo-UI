@@ -22,7 +22,7 @@ body,html{
     align-items: center;
 }
 nav{
-    background: linear-gradient(180deg, #121221 0%, #0A4A96 100%);
+        background: rgba(0, 0, 0, 0.25);
     padding: 10px 0 10px 20px ;
 }
 nav .logo{
