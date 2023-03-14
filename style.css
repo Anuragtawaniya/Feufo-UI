@@ -22,7 +22,7 @@ body,html{
     align-items: center;
 }
 nav{
-        background: rgba(0, 0, 0, 0.25);
+    background: rgba(0, 0, 0, 0.25);
     padding: 10px 0 10px 20px ;
 }
 nav .logo{
@@ -69,6 +69,7 @@ padding: 8px 33px;
 background-origin:border-box;
 background-clip: content-box,border-box;
 color: #8EFFE4;
+background: #1B1B1B;
 }
 .instructor-main{
     justify-content: space-around;
@@ -100,7 +101,7 @@ right: 5%;
 }
 .ins-content{
  
-    text-align: center;
+    text-align: center;s
 }
 .instructor-btn a{
     display: inline-block;
@@ -134,7 +135,7 @@ right: 5%;
 }
 .member{
     position: relative;
-    left: 80px;
+    left: 50px;
     top: 20px;
 }
 .box{
@@ -148,7 +149,7 @@ height: 600px;
 }
 .box-content p{
     color: #E6E6E6;
-    font-size: 12px;
+    font-size: 14px;
     width: 60%;
 }
 .icons img{
@@ -222,6 +223,7 @@ line-height: 30px;
 }
 .about-detail p{
     width: 70%;
+    font-size: 14px;
 }
 .testimonial{
     text-align: center;
@@ -284,3 +286,116 @@ backdrop-filter: blur(20px);
 .blog-buttons img{
     margin: 0 12px;
 }
+
+
+.contact-card{
+    background: linear-gradient(101.16deg, rgba(174, 174, 174, 0.24) 13.92%, rgba(255, 255, 255, 0.036) 84.63%);
+backdrop-filter: blur(20px);
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+padding: 40px;
+text-align: center;
+min-height: 300px;
+width: 50%;
+
+
+
+}
+
+.contact{
+    justify-content: space-around;
+    width: 80%;
+}
+.contact-card h1{
+    background: linear-gradient(86.25deg, #3180D5 7.06%, #30C29F 87.74%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
+
+.card-icons img{
+margin: 0 10px;
+}
+.contact .right-box{
+ 
+    text-align: center;
+}
+.contact .right-box p{
+    width: 100%;
+
+}
+
+.book{
+    background-image: url('./images/web.jpeg');
+    background-size: cover;
+    min-height: 300px;
+    padding: 40px 0;
+  
+    width: 90%;
+    
+}
+.button button{
+    display: inline-block;
+padding: 12px 22px;
+width: 200px;
+outline: none;
+font-weight: 300;
+border-radius: 8px;
+border: none;
+
+}
+.button-color{
+    background: linear-gradient(86.25deg, #3180D5 7.06%, #30C29F 87.74%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
+.book-detail p{
+width: 50%;
+display: inline-block;
+}
+
+footer{
+    background: #131313;
+    height: 361px;
+    align-items: center;
+    justify-content: space-between;
+    color: #FFFFFF;
+    line-height: 30px;
+}
+footer div{
+    margin-left: 50px;
+}
+
+/* Rs desgin */
+
+
+
+/* For extremely small screen devices (595px and below) */
+@media only screen and (max-width: 595px) {
+
+}
+ 
+/* Small screen devices (600px and above) */
+@media only screen and (min-width: 600px) {
+
+}
+ 
+/* Medium screen devices (768px and above) */
+@media only screen and (min-width: 768px) {
+
+}
+ 
+/* Big screen devices (889px and above) */
+@media only screen and (min-width: 889px) {
+
+}
+ 
+/* Extra big screen devices (1200px and above)
+@media only screen and (min-width: 1200px) {
+
+} */
