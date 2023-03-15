@@ -6,6 +6,15 @@
 :root{
     --white:#FFFFFF;
 }
+html,body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.responsive{
+    width: 140vw;
+    max-width: 400px;
+    height: auto;
+}
 .inner{
     width: 90%;
     margin: 50px auto;
@@ -40,36 +49,67 @@ nav .logo{
   
 }
 .hero-section .left,.right{
-    width: 50%;
+    width: 40%;
     padding:50px;
 }
 .hero-section .right img{
     width: 100%;
-    display: flex;
-    justify-self: center;
+    
 }
+.hero-section .left{
+    width: 60%;
+}
+
 .hero-section .content{
     color: var(--white);
-    font-size: 54px;
+    font-size: 4vw;
     width: 80%;
    
 }
+.hero-img{
+    width: 80vw;
+}
+nav{
+    justify-content: space-around;
+}
+nav a{
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-left: 25px;
+}
+
+.login{
+    background: linear-gradient(86.25deg, #3180D5 7.06%, #30C29F 87.74%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
+
 .btns{
-    width: 107px;
+    width: 20vw;
 height: 19px;
 font-weight: 400;
-font-size: 16px;
+font-size: 1.5vw;
 line-height: 19px;
-border-radius: 8px;
+border-radius: 10px;
 margin:20px 0 0 20px;
 text-align: center;
 text-decoration: none;
-border: 3px solid #30C29F;
-padding: 8px 33px;
+
+padding: 0.8rem 2rem;
 background-origin:border-box;
 background-clip: content-box,border-box;
 color: #8EFFE4;
 background: #1B1B1B;
+/* padding: 12px 22px; */
+border-left: 4px solid #3180D5;
+border-right: 4px solid #30C29F;
+background-image: linear-gradient(90deg, #3180D5, #30C29F), linear-gradient(90deg, #3180D5, #30C29F);
+background-size: 100% 5px;
+background-position: 0 0, 0 100%;
+background-repeat: no-repeat;
+
 }
 .instructor-main{
     justify-content: space-around;
@@ -101,7 +141,7 @@ right: 5%;
 }
 .ins-content{
  
-    text-align: center;s
+    text-align: center;
 }
 .instructor-btn a{
     display: inline-block;
@@ -115,7 +155,10 @@ right: 5%;
     background: linear-gradient(86.25deg, #3180D5 7.06%, #30C29F 87.74%);
 }
 .or-section{
-    width: 60%;
+    width: 18vw;
+    position: absolute;
+    top: 45vw;
+
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -135,13 +178,14 @@ right: 5%;
 }
 .member{
     position: relative;
-    left: 50px;
-    top: 20px;
+    left: 4vw;
+    top: 1vw;
 }
+
 .box{
 
     color: #FFFFFF;
-height: 600px;
+min-height: 600px;
     position: relative;
 }
 .heading{
@@ -149,7 +193,6 @@ height: 600px;
 }
 .box-content p{
     color: #E6E6E6;
-    font-size: 14px;
     width: 60%;
 }
 .icons img{
@@ -171,7 +214,28 @@ line-height: 30px;
 
 }
 
-.interview-section{
+.interview{
+   
+    display: flex;
+    
+    width: 90%;
+    
+    margin: 0 auto;
+}
+.interview div img{
+    width: 100%;
+    position: relative;
+    right: 10vw;
+}
+.interview div{
+    width: 80%;
+    text-align: center;
+}
+.interview div p{
+    width: 100%;
+    text-align: center;
+}
+/* .interview-section{
     flex-direction: row-reverse;
     display: flex;
    
@@ -179,7 +243,7 @@ line-height: 30px;
 .interview-section .left-box{
  
     margin-left: 200px;
-}
+} */
 .role-section{
     text-align: center;
     color: #FFFFFF;
@@ -193,43 +257,61 @@ line-height: 30px;
     background: linear-gradient(101.16deg, rgba(174, 174, 174, 0.24) 13.92%, rgba(255, 255, 255, 0.036) 84.63%);
 box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.2);
 backdrop-filter: blur(20px);
-width: 337px;
-height: 106px;
+width: 25vw;
+height: auto;
+padding: 10px 0;
 border-radius: 10px;
 justify-content: space-around;
 align-items: center;
 line-height: 30px;
+flex-wrap: wrap;
 }
 .role-card .role-title{
     color: #E6E6E6;
 }
-.vector-detail{
-    width: 30%;
-    min-height: 200px;
-    padding: 10px;
-    text-align: center;
+.vector-section{
+    justify-content: space-around;
 }
+.vector-detail{
+    width: 25%;
+    min-height: 400px;
+    padding: 20px 10px; 
+    text-align: center;
+    flex-wrap: wrap;
+
+    
+
+}
+
 
 .vector-detail h4{
     text-align: center;
 }
+.vector-detail img{
+    width: 50%;
+    
+}
+
 .vector-detail p{
     color: #E6E6E6;
     font-weight: 100;
 }
-.vector-section{
-    justify-content: space-around;
-  
+
+.about-detail{
+    flex-wrap: wrap;
+}
+.about-detail div{
+    width: 40%;
+    font-size: 1rem;
 }
 .about-detail p{
-    width: 70%;
-    font-size: 14px;
-}
+    width: 80%;
+} 
 .testimonial{
     text-align: center;
 }
 .client-review{
-    width: 60%;
+    width: 60vw;
     background: linear-gradient(101.16deg, rgba(174, 174, 174, 0.24) 13.92%, rgba(255, 255, 255, 0.036) 84.63%);
     box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(20px);
@@ -306,7 +388,7 @@ width: 50%;
 
 .contact{
     justify-content: space-around;
-    width: 80%;
+    width: 80vw;
 }
 .contact-card h1{
     background: linear-gradient(86.25deg, #3180D5 7.06%, #30C29F 87.74%);
@@ -318,6 +400,9 @@ text-fill-color: transparent;
 
 .card-icons img{
 margin: 0 10px;
+}
+.card-img{
+    width: 20vw;
 }
 .contact .right-box{
  
@@ -333,8 +418,8 @@ margin: 0 10px;
     background-size: cover;
     min-height: 300px;
     padding: 40px 0;
-  
-    width: 90%;
+   
+    width: 80%;
     
 }
 .button button{
@@ -361,14 +446,28 @@ display: inline-block;
 
 footer{
     background: #131313;
-    height: 361px;
+    min-height: 361px;
     align-items: center;
     justify-content: space-between;
     color: #FFFFFF;
     line-height: 30px;
+    padding: 0 5vw;
+    flex-wrap: wrap;
 }
-footer div{
-    margin-left: 50px;
+.footer-right{
+    line-height: 40px;
+}
+.footer-right a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.footer-right img{
+    margin: 20px 0;
+    width: 50%;
+}
+.footer 
+.roadmap-img{
+    width: 80%;
 }
 
 /* Rs desgin */
@@ -376,26 +475,158 @@ footer div{
 
 
 /* For extremely small screen devices (595px and below) */
-@media only screen and (max-width: 595px) {
-
+/* @media(min-width:300px) and (max-width: 700px) {
+.flex{
+    flex-direction: column;
+    flex-wrap: wrap;
 }
+
+} */
  
 /* Small screen devices (600px and above) */
-@media only screen and (min-width: 600px) {
+
+.roadmap-img{
+    width: 80%;
+}
+/* Medium screen devices (768px and above) */
+@media only screen and (max-width: 768px) {
+.flex{
+    flex-wrap: wrap;
+}
+.inner{
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+}
+.left-box,.right-box{
+    width: 80%;
+}
+
+.vector-detail{
+    width: 80%;
+    margin: 20px 0;
+}
+.card-img{
+    margin: 20px 0 0 0;
+}
+.role-card{
+    width: 80%;
+    margin: 10px 0;
+}
+.icons span{
+    font-size: 0.7rem;
+}
+.box-content p{
+    width: 100%;
+}
+.member{
+    margin: 0;
+}
+.hero-section .left,.right{
+    width: 100%;
+ 
 
 }
- 
-/* Medium screen devices (768px and above) */
-@media only screen and (min-width: 768px) {
+.hero-section .left{
+    text-align: center;
+    width: 100%;
+  
+}
+
+.hero-section .content h4{
+    width: 100%;
+    font-size: 2rem;
+
+}
+.feufo-img{
+    margin: 40px 0;
+}
+
+.client-review{
+    width: 80vw;
+}
+
+.interview{
+    flex-direction: column-reverse;
+    width: 100%;
+margin-left: 70px;
+}
+
+
+
+.interview div{
+    width: 80%;
+    margin: 20px 0;
+  
+}
+.vector-detail img{
+    width: 35vw;
+}
+.btns{
+    font-size: 1vw;
+}
+.member{
+    position: relative;
+    left: 1vw;
+    top: 1vw;
+}
+
+.content ,.about-detail ,.hire-section{
+  
+    width: 80%;
+    margin: 0 auto;
+}
+.about-section{
+    margin-bottom: 20px;
+}
+
+.about-detail p{
+    width: 100%;
+    margin: 20px 0;
+}
+.about-heading{
+    margin-left: 80px;
+}
+.responsive{
+    width: 70vw;
+}
+.footer-right h2{
+    margin-top: 20px;
+}
+
+.why-section{
+    margin: 50px 0;
+}
+footer div{
+    width: 80%;
+    padding: 20px 0;
+
+}
 
 }
  
 /* Big screen devices (889px and above) */
-@media only screen and (min-width: 889px) {
+@media (min-width:768px) and (max-width: 100px) {
 
+    
+    .interview{
+        flex-direction: column-reverse;
+        width: 100%;
+    margin-left: 70px;
+    }
+    
+    
+    
+    .interview div{
+        width: 80%;
+        margin: 20px 0;
+      
+    }
 }
  
 /* Extra big screen devices (1200px and above)
 @media only screen and (min-width: 1200px) {
 
 } */
+
+

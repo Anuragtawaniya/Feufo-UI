@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Feufo</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,18 +15,23 @@
   </head>
   <body>
     <header>
-      <nav>
+      <nav class="flex">
         <div class="logo">
           <img src="./images/logo.png" alt="" />
         </div>
+        <ul>
+            <a href="">Home</a>
+            <a href="">Book a Demo</a>
+            <a href="" class="login">Login/Signup</a>
+        </ul>
       </nav>
 
       <div class="hero-section inner flex">
         <div class="left">
           <div class="content">
-            <p>
+            <h4>
               Experience hiring with Feufo as easily as shopping with Amazon
-            </p>
+            </h4>
           </div>
           <br /><br />
           <div class="hero-btns">
@@ -35,21 +40,19 @@
           </div>
           <br /><br />
           <div class="or-section">
-            <div class="or-element"></div>
-            <h6 class="or-heading">Or</h6>
-            <div class="or-element"></div>
+           
           </div>
           <br />
           <a href="" class="btns member">Become member</a>
         </div>
         <div class="right">
-          <img src="./images/hero.png" alt="" />
+          <img src="./images/hero.png" class="hero-img" alt="" />
         </div>
       </div>
     </header>
     <br /><br /><br />
     <!-- =========================================  instructor-main  starts here ======================= -->
-    <section class="instructor-main inner flex">
+    <!-- <section class="instructor-main inner flex">
       <div class="instructor-card">
         <div class="fav-icon">
           <img src="./images/favorite.svg" alt="" />
@@ -88,8 +91,8 @@
           <a href="">Feufo fee $2000</a>
         </div>
         <br />
-        <h4 class="ins-heading">Jesus A</h4>
-        <p class="ins-heading">Frontend Developer at Skydropx</p>
+        <h4 class="ins-heading">Aslam Sheikh</h4>
+        <p class="ins-heading">Sr. Machine learning engineer</p>
         <div>
           <br />
           <img src="./images/Vector 3.svg" />
@@ -97,7 +100,8 @@
         <br />
         <div class="ins-content">
           <p>
-           Jesus is a FrontEnd engineer with over 4 years of experience in frontend development using JavaScript and libraries like React and Vue
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua
           </p>
         </div>
       </div>
@@ -114,8 +118,8 @@
           <a href="">Feufo fee $2000</a>
         </div>
         <br />
-        <h4 class="ins-heading">Meemansha S</h4>
-        <p class="ins-heading">Sr. Software Engineer at Altimetrik</p>
+        <h4 class="ins-heading">Aslam Sheikh</h4>
+        <p class="ins-heading">Sr. Machine learning engineer</p>
         <div>
           <br />
           <img src="./images/Vector 3.svg" />
@@ -123,7 +127,8 @@
         <br />
         <div class="ins-content">
           <p>
-           She has 6 years of experience in designing and developing large-scale applications. Skilled in Go and Core Java
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua
           </p>
         </div>
       </div>
@@ -140,8 +145,8 @@
           <a href="">Feufo fee $2000</a>
         </div>
         <br />
-        <h4 class="ins-heading">Phil H</h4>
-        <p class="ins-heading">Sr. Software Engineer at Altimetrik</p>
+        <h4 class="ins-heading">Aslam Sheikh</h4>
+        <p class="ins-heading">Sr. Machine learning engineer</p>
         <div>
           <br />
           <img src="./images/Vector 3.svg" />
@@ -149,18 +154,19 @@
         <br />
         <div class="ins-content">
           <p>
-           She has 6 years of experience in designing and developing large-scale applications. Skilled in Go and Core Java
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua
           </p>
         </div>
       </div>
     </section>
-    <br /><br /><br />
+    <br /><br /><br /> -->
 
     <!-- =========================================  instructor-main  ends here ======================= -->
 
     <!-- =========================================  Why Feufo? Starts  here ======================= -->
 
-    <div class="box inner flex">
+    <div class="box inner why-section flex">
       <div class="left-box">
         <h1 class="heading">Why Feufo?</h1>
         <br /><br />
@@ -209,7 +215,7 @@
       </div>
 
       <div class="right-box">
-        <img src="./images/banner.svg" />
+        <img src="./images/banner.svg"  class="responsive feufo-img" />
       </div>
     </div>
 
@@ -233,35 +239,38 @@
       </div>
 
       <div class="right-box">
-        <img src="./images/Group 434.svg" />
+        <img src="./images/Group 434.svg" class="responsive" />
       </div>
     </div>
 
     <!-- ========================================= Hire Faster ends  here ======================= -->
 
+
+
     <!-- ========================================= Interview Start  here ======================= -->
 
-    <div class="box inner flex interview-section">
-      <div class="left-box">
-        <h1>
-          Interview <span class="faster-text"> pre-vetted</span><br />candidates
-        </h1>
-        <br /><br />
-        <div class="box-content">
-          <p>
-            Working with recruiters can be a pain: they are expensive and
-            require a lot of follow up. Via Job Protocol, you work with hundreds
-            of recruiters & other talent partners in parallel, and you decide
-            the price up-front. You'll find top talent for 50% cheaper than
-            working with an agency.
-          </p>
+    <div class="box interview">
+        <div>
+            <img src="./images/Group 434.svg" class="responsive" />
+          </div>
+        <div>
+            <h1>
+                Interview <span class="faster-text"> pre-vetted</span><br />candidates
+              </h1>
+          <br /><br />
+          <div class="box-content">
+            <p>
+              Working with recruiters can be a pain: they are expensive and
+              require a lot of follow up. Via Job Protocol, you work with hundreds
+              of recruiters & other talent partners in parallel, and you decide
+              the price up-front. You'll find top talent for 50% cheaper than
+              working with an agency.
+            </p>
+          </div>
         </div>
+  
+      
       </div>
-
-      <div class="right-box">
-        <img src="./images/Group 435.svg" />
-      </div>
-    </div>
 
     <!-- ========================================= Interview ends  here ======================= -->
 
@@ -304,7 +313,9 @@
     <!-- ================= Vector section starts ============ -->
     <div class="vector-section box inner flex">
       <div class="vector-detail">
+       <div>
         <img src="./images/Working.svg" /> <br /><br />
+       </div>
 
         <h4>Pre-Vetted</h4>
         <br /><br />
@@ -325,7 +336,9 @@
       </div>
 
       <div class="vector-detail">
+      <div>
         <img src="./images/Building.svg" /> <br /><br />
+      </div>
         <h4>Top Companies</h4>
         <br /><br />
         <div>
@@ -343,14 +356,14 @@
       </div>
 
       <div class="vector-detail">
-        <img src="./images/Student.svg" /> <br /><br />
+        <div>
+            <img src="./images/Student.svg"  /> <br /><br />
+        </div>
         <h4>Top Universities</h4>
         <br /><br />
         <div>
           <p>
-            Engineers are filtered out from top universities like MIT, Stanford,
-            IIT etc. This allows a business to find its match more easily
-            matching to their preferences.
+            Engineers are filtered out from top universities like MIT, Stanford, IIT etc. This allows a business to find its match more easily matching to their preferences. 
           </p>
         </div>
         <div>
@@ -363,9 +376,11 @@
 
     <!-- ================= About Feufo Starts ============ -->
     <div class="inner box about-section">
-      <h1>About Feufo</h1>
+      <div class="left-box">
+        <h1 class="about-heading">About Feufo</h1><br>
+      </div>
       <div class="about flex">
-        <div class="about-detail">
+        <div class="about-detail box-content">
           <p>
             At Feufo, we believe that the future of work is remote. And the key
             to success in the remote economy is connecting talented engineers
@@ -377,7 +392,7 @@
             company needing to scale your engineering team quickly, Feufo is the
             marketplace for you. With Feufo, you can review test code and hire
             engineers in just a few clicks. We are constantly improving our
-            platform to make sure that it's the most efficient way to connect
+            platform to make sure  that it's the most efficient way to connect
             engineers with quality work opportunities. And we're always adding
             new features to help our users get the most out of Feufo. If you're
             an engineer, we want to help you find your dream job and earn 25% of
@@ -386,8 +401,8 @@
             on this journey!
           </p>
         </div>
-        <div class="about-detail">
-          <img src="./images/video.svg" />
+        <div class="about-detail ">
+          <img src="./images/video.svg" class="responsive" />
         </div>
       </div>
     </div>
@@ -444,7 +459,7 @@
     <a href="" class="btns">Get Hired</a>
  </div><br><br><br><br>
 <div style="text-align: center;">
-<img src="./images/roadmap.svg" />
+<img src="./images/roadmap.svg" class="roadmap-img" />
 </div>
 </div>
 
@@ -456,94 +471,6 @@
 
 
 
-    <!-- ================= Blog Starts here ============ -->
-<!-- 
-    <div class="blog box inner">
-      <h1 style="text-align: center">Our Blogs</h1>
-      <div class="blog-container flex">
-        <div class="blog-cards">
-          <div class="blog-img">
-            <img src="./images/blog-1.png" />
-          </div>
-          <div class="blog-date">
-            <p style="color: #0694db">16 march, 2023</p>
-            <br />
-          </div>
-          <h4 class="blog-title">Shortage of software enginneers</h4>
-          <br />
-          <div>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
-            </p>
-          </div>
-          <div style="text-align: center">
-            <br /><br />
-            <a href="" class="btns">Read more</a>
-          </div>
-          <br />
-        </div>
-
-        <div class="blog-cards">
-          <div class="blog-img">
-            <img src="./images/blog-2.png" />
-          </div>
-          <div class="blog-date">
-            <p style="color: #0694db">16 march, 2023</p>
-            <br />
-          </div>
-          <h4 class="blog-title">Shortage of software enginneers</h4>
-          <br />
-          <div>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
-            </p>
-          </div>
-          <div style="text-align: center">
-            <br /><br />
-            <a href="" class="btns">Read more</a>
-          </div>
-          <br />
-        </div>
-
-        <div class="blog-cards">
-          <div class="blog-img">
-            <img src="./images/blog-3.png" />
-          </div>
-          <div class="blog-date">
-            <p style="color: #0694db">16 march, 2023</p>
-            <br />
-          </div>
-          <h4 class="blog-title">Shortage of software enginneers</h4>
-          <br />
-          <div>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
-            </p>
-          </div>
-          <div style="text-align: center">
-            <br /><br />
-            <a href="" class="btns">Read more</a>
-          </div>
-          <br />
-        </div>
-      </div>
-      <div class="blog-buttons">
-        <img src="./images/Arrow 2.svg" class="left-arrow" />
-        <img src="./images/Arrow 1.svg" />
-      </div>
-    </div> -->
-
-    <!-- ================= Blog 
-                                                    ends here ============ -->
 
     <!-- ================= Contact starts here ============ -->
     <div class="inner contact box flex">
@@ -559,7 +486,7 @@
         </div>
       </div>
       <div class="right-box">
-        <img src="./images/card.svg" />
+        <img src="./images/card.svg" class="card-img" />
         <div>
           <br /><br />
           <h1>Get early access</h1>
@@ -589,7 +516,7 @@
           <br /><br />
 
           <div class="button">
-            <button><a href="https://app.hubspot.com/meetings/feufo" class="button-color">Book a Call</a></button>
+            <button><span class="button-color">Book a Call</span></button>
           </div>
         </div>
       </div>
@@ -608,7 +535,20 @@
           Branch Office: Banjara Hills, Hyderabad, India
         </address>
       </div>
-      <div></div>
+      <div class="footer-right">
+        <h2>Contact Us</h2><br>
+        <div class="email">
+            <a href="info@feufo.com">info@feufo.com</a>
+        </div>
+        <div class="footer-contact">
+<a href="">+1 302 754 1824</a>
+        </div>
+        <div class="flex" style="text-align: center;">
+<a href=""><img src="./images/instagram.svg" /></a>
+<a href=""><img src="./images/linkdin.svg" /></a>
+<a href=""><img src="./images/twitter.svg" /></a>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
