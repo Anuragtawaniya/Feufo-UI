@@ -9,6 +9,7 @@
 html,body{
     max-width: 100%;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 .responsive{
     width: 140vw;
@@ -45,8 +46,8 @@ nav .logo{
 /* hero section starts here */
 .hero-section{
     height: 100vh;
+    
    
-  
 }
 .hero-section .left,.right{
     width: 40%;
@@ -67,7 +68,7 @@ nav .logo{
    
 }
 .hero-img{
-    width: 80vw;
+    width: 150% !important;
 }
 nav{
     justify-content: space-around;
@@ -103,8 +104,8 @@ background-clip: content-box,border-box;
 color: #8EFFE4;
 background: #1B1B1B;
 /* padding: 12px 22px; */
-border-left: 4px solid #3180D5;
-border-right: 4px solid #30C29F;
+border-left: 3px solid #3180D5;
+border-right: 3px solid #30C29F;
 background-image: linear-gradient(90deg, #3180D5, #30C29F), linear-gradient(90deg, #3180D5, #30C29F);
 background-size: 100% 5px;
 background-position: 0 0, 0 100%;
@@ -595,16 +596,29 @@ margin-left: 70px;
 }
 
 .why-section{
-    margin: 50px 0;
+    margin: 100px 0;
 }
 footer div{
     width: 80%;
     padding: 20px 0;
 
 }
+.logo{
+    margin: 20px 0;
+}
+.book-detail{
+    width: 100%;
 
 }
- 
+.book-detail .client-detail p{
+    width: 80%;
+}
+}
+@media(max-width:460px){
+    .icon-title{
+        font-size: 10px !important;
+    }
+}
 /* Big screen devices (889px and above) */
 @media (min-width:768px) and (max-width: 100px) {
 
